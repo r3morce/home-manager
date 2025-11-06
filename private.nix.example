@@ -1,0 +1,6 @@
+{
+  gitUserName = "Your Name";
+  gitUserEmail = "your.email@example.com";
+  username = "example";
+  homeDirectory = "/home/example";
+}

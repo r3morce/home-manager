@@ -1,0 +1,16 @@
+# Ignore any generated files
+result
+result-*
+config/nvim/lazy-lock.json
+
+# Private configuration
+private.nix
+
+# Personal notes and plans (not for public repo)
+MIGRATION_PLAN.md
+TODO.md
+NOTES.md
+
+# Backups
+*.backup
+*.bak
