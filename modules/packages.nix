@@ -9,6 +9,7 @@
     
     # Development tools  
     docker-compose
+    zellij
     
     # Other utilities
     fastfetch

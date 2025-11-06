@@ -1,0 +1,10 @@
+// Enable session persistence
+session_serialization true
+
+// UI settings
+default_shell "zsh"
+theme "dracula"
+
+// Enable mouse support
+mouse_mode true
+copy_on_select true

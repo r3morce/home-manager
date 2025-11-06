@@ -29,6 +29,7 @@ alias sb="wezterm cli split-pane --bottom"
 alias nt="wezterm cli set-tab-title"
 alias gs="git status"
 alias open='xdg-open'
+alias dev='~/.local/bin/dev'
 
 # Useful Functions
 mkcd() { mkdir -p "$1" && cd "$1"; }

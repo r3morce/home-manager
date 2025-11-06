@@ -25,5 +25,8 @@ in
     EDITOR = "nvim";
   };
 
+  # Create ~/.local/bin directory and add dev script
+  home.file.".local/bin/dev".source = ./config/zellij/dev;
+
   programs.home-manager.enable = true;
 }
