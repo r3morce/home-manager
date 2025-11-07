@@ -9,5 +9,5 @@ DEV_DIR="${1:-$(pwd)}"
 # Change to the directory
 cd "$DEV_DIR" || exit 1
 
-# Launch zellij with custom layout
-exec zellij --layout ~/.config/zellij/layout.kdl
+# Launch zellij with dev layout
+exec zellij --layout ~/.config/zellij/layout.kdl --session dev
