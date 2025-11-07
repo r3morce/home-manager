@@ -4,11 +4,11 @@ session_serialization true
 // UI settings
 default_shell "zsh"
 theme "dracula"
+show_startup_tips false
 
 // Minimal UI
 simplified_ui true
-pane_frames false
-show_startup_tips false
+pane_frames true
 
 // Enable mouse support for beginners
 mouse_mode true
