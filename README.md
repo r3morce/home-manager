@@ -27,7 +27,6 @@ My declarative dotfiles and system configuration using Nix Home Manager.
 2. **Create your private configuration**
    ```bash
    cp private.nix.example private.nix
-   # Edit private.nix with your git name/email
    ```
 
 3. **Apply configuration**
@@ -75,20 +74,8 @@ home-manager switch
 ├── private.nix           # Private config (git-ignored)
 ├── private.nix.example   # Template for private config
 ├── modules/              # Modular configuration
-├── config/               # Actual dotfiles
-│   ├── nvim/             # Neovim/LazyVim config
-│   └── wezterm/          # Wezterm config
-├── zshrc                 # Zsh configuration file
-└── p10k.zsh              # Powerlevel10k theme
+└── config/               # Actual dotfiles
 ```
-
-## What's Included
-
-- **Editor**: Neovim with LazyVim
-- **Terminal**: Wezterm
-- **Shell**: Zsh with Powerlevel10k
-- **CLI Tools**: bat, eza, fzf, ripgrep, fd, zoxide
-- **Dev Tools**: git, gh, lazygit, docker-compose
 
 ## Rollback
 
