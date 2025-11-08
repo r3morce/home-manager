@@ -10,6 +10,7 @@
     # Development tools  
     docker-compose
     zellij
+    wezterm
     
     # Other utilities
     fastfetch

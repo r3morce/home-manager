@@ -3,4 +3,6 @@
   gitUserEmail = "your.email@example.com";
   username = "example";
   homeDirectory = "/home/example";
+  
+
 }

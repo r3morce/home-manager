@@ -85,6 +85,14 @@ home-manager generations
 home-manager switch --rollback
 ```
 
+## Known Issues
+
+### Alacritty
+- **Issue**: Alacritty from nixpkgs (v0.16.1) has Wayland display handle compatibility issues
+- **Workaround**: Currently disabled in home-manager. Use system package manager (pacman) instead
+- **Status**: Configuration file (`~/.config/alacritty/alacritty.toml`) is still managed by home-manager
+- **Future**: Will re-enable when a fixed version is available in nixpkgs
+
 ## Notes
 
 - `private.nix` contains sensitive info (not tracked)
