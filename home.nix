@@ -10,6 +10,7 @@ in
     ./modules/zsh.nix
     ./modules/neovim.nix
     ./modules/packages.nix
+    ./modules/alacritty.nix
     ./modules/wezterm.nix
     ./modules/zellij.nix
   ];
