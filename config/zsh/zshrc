@@ -37,12 +37,12 @@ mkcd() { mkdir -p "$1" && cd "$1"; }
 # Initialize tools
 eval "$(zoxide init zsh)"
 
-# Load plugins directly
-source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Load plugins (managed by home-manager)
+source ~/.nix-profile/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.nix-profile/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # p10k
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+source ~/.nix-profile/share/zsh-powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export NVM_DIR="$HOME/.config/nvm"
